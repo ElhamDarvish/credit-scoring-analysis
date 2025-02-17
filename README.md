@@ -5,8 +5,8 @@ This repository contains the code and data used for the research paper "A Hybrid
 This research presents a hybrid model integrating error correction mechanisms with eXplainable Artificial Intelligence (XAI) techniques to enhance the prediction accuracy and interpretability of credit approval decisions. The final trained model and relevant datasets are available upon request.
 
 ## Repository Structure
-* The dataset preprocessing and exploratory data analysis (EDA) scripts are located in scripts/preprocessing_eda.py.
-* The main model implementation and training are in scripts/modeling.py.
+* The dataset preprocessing and exploratory data analysis (EDA) scripts are located in scripts/preprocessing.py.
+* The main model implementation and training are in scripts/train_models.py.
 * Feature selection and explainability techniques are implemented in scripts/xai_feature_selection.py.
 ## Installation
 To set up the environment for running the experiments, follow these steps:
