@@ -28,20 +28,15 @@ To set up the environment for running the experiments, follow these steps:
 
 ## Methodology Overview
 1. **Data Preprocessing**: Handles missing values, outliers, and normalizes features.
-2. **Feature Engineering**: Generates and selects the most relevant features.
+2. **Feature Engineering**: Generates a SHAP-based feature selection approach to identify most impactful features.
 3. **Hybrid Model Training**: Combines traditional machine learning techniques with an error correction mechanism.
-4. **Evaluation**: Uses metrics like precision, recall, F1-score, and AUC-ROC.
-5. **Explainability**: Employs SHAP and LIME to interpret model predictions.
+4. **Evaluation**: Uses metrics like accuracy, precision, recall, F1-score,confusion matrix, and AUC-ROC.
+5. **Explainability**: Employs SHAP to interpret model predictions.
 
 ## Results and Findings
 - The proposed model improves credit approval prediction accuracy compared to baseline models.
 - XAI methods provide insight into key decision-making factors in credit approvals.
 - Error correction mechanisms help mitigate biases in the dataset.
-
-## Limitations and Future Work
-- Further validation is needed on larger, real-world datasets.
-- Investigating other hybrid architectures for performance improvements.
-- Exploring fairness-aware modeling techniques to reduce bias.
 
 ## License
 This code is released under an [MIT License](https://choosealicense.com/licenses/mit/).
